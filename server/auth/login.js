@@ -1,5 +1,5 @@
 const { User } = require("../models");
-const jwtUtil = require("../auth/lib/jwt");
+const jwtUtil = require("./lib/jwt");
 const passUtil = require("./lib/password");
 const getUserById = require("./lib/getUserById");
 const Responder = require("../shared/responder");
